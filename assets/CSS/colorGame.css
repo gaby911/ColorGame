@@ -1,0 +1,74 @@
+body{
+    background-color: #232323;
+    margin: 0;
+    font-family: "Nonserrat","Avenir";
+}
+
+.square{
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+    border-radius: 15%;
+    transition: background 0.6s; /*creaza o tranzitie atunci cand se schimba background-ul*/
+    --webkit-transition: background 0.6s; /*pentru safari browser*/
+    --moz-transition: background 0.6s; /*pentru mozila browser*/
+}
+
+#container{
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+h1{
+    text-align: center;
+    line-height: 1.1;
+    color: white;
+    background-color: steelblue;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+#colorDisplay{
+    font-size: 200%;
+}
+
+
+#stripe{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+.selected {
+    background: steelblue;
+    color: white;
+}
+
+button{
+    border: none;
+    background-color: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    --webkit-transition: all 0.3s; 
+    --moz-transition: all 0.3s; 
+    outline: none;
+}
+
+#mesage{
+    display:inline-block;
+    width: 20%;
+}
+button:hover { 
+    color:white;
+    background-color: steelblue;
+}
